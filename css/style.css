@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(204, 202, 202);
+    background-image:url("/img/back.jpg");
     margin: auto;
 }
 ul{
@@ -8,42 +8,35 @@ ul{
 
 li a{
     color: white;
+    text-decoration:none;
+}
+#sob{
+    float: right;
+    width:75px;
+    text-decoration: underline;
 }
 header{
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: #8FBC8F;
+    background-color: black;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px white;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+#envelope{
+    width: 960px;
+    height: 90vh;
+    margin: auto;
+    background-color:gray ;
+    overflow: hidden;
 }
-
-#box1{
-    background-color: purple;
-}
-
-#box2{
-    background-color: blue;
-
-}
-#box3{
-    background-color: red;
-}
-
-#box4{
-    background-color: grey;
-
-}
-
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #8FBC8F;
-    background-color:;
+    background-color: black;
     color: white;
     text-align: center;
+    height: 40px;
 }
